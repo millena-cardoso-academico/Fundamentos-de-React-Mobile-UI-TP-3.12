@@ -1,0 +1,42 @@
+.related-videos {
+  padding: 20px;
+}
+
+.related-items {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.related-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.related-item img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.video-title {
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  color: var(--highlight-color);
+  font-weight: bold;
+}
+
+.author {
+  margin-top: 5px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--text-color);
+}
